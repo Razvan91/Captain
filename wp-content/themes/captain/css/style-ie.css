@@ -1,0 +1,65 @@
+/* Header */
+#header .menu li:after{
+	color: #ff0000;
+	content: none;
+	margin: 0 17px;
+}
+.header-panel li:after{
+	color: #aaaaaa;
+	content: none;
+	font-size: 12px;
+	margin: 0 14px;
+	vertical-align: 3px;
+}
+#header .menu li:last-child:after,
+.header-panel li:last-child:after{
+	content: none;
+}
+#header .menu a{
+	color: #ffffff;
+}
+
+/* Footer */
+.footer-content .sub-menu li{
+	display: inline-block;
+	letter-spacing: 0.5px;
+	line-height: 40px;
+}
+#footer .sub-menu li:after{
+	color: #aaaaaa;
+	content: none;
+	font-size: 12px;
+	vertical-align: 2px;
+}
+#footer .sub-menu li:after{
+	color: #aaaaaa;
+	content: none;
+	font-size: 12px;
+	margin: 0 18px;
+	vertical-align: 1px;
+}
+#footer .sub-menu li:last-child:after{
+	content: none;
+}
+#footer .newsletter input{
+	background: #000000;
+	border: 1px solid #777777;
+	color: #cccccc;
+	font-family: 'Calibri Light Italic';
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	height: 13px;
+	padding: 5px;
+	width: 88px;
+}
+#footer .newsletter button{
+	background: #000000;
+	border: 1px solid #777777;
+	color: #999999;
+	cursor: pointer;
+	font-family: 'Calibri Light';
+	font-size: 13px;
+	height: 25px;
+	margin: 0 0 0 -5px;
+	width: 60px;
+}

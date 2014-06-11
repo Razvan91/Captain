@@ -1,0 +1,48 @@
+/*
+Theme Name: The captain
+Version: 1.0
+*/
+
+
+.clear{
+        clear:both;
+
+}
+#header .menu{
+}
+
+#header .logo{
+    margin: 0px 32.5px;
+}
+
+.header-content{
+    overflow: hidden;
+
+}
+.menu.left-menu, .menu.right-menu{
+    width: 325px;
+    overflow: hidden;
+
+}
+.slider img{
+    width : 100% !important;
+    height: 100% !important;
+
+}
+
+#page-content .page-title{
+    font-size:33px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+#page-content{
+    width:915px;
+    margin:auto;
+    padding-top:30px;
+
+}
+.price {
+    margin-top: 20px;
+
+}
