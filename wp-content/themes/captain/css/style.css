@@ -434,12 +434,11 @@ button{
 	margin: 0 35px;
 	width: 135px;
 }
-.filters ul{
-	list-style-type: disc;
+.filters .widget.woocommerce.widget_layered_nav{
 	margin-left: 15px;
 	margin-top: 10px;
 }
-.filters li{
+.filters .widget-title{
 	line-height: 14px;
 	margin-bottom: 10px;
 }
@@ -1186,4 +1185,9 @@ button{
 }
 .icon-vimeo:before {
 	content: "\e601";
+}
+
+.hide{
+
+    display:none;
 }

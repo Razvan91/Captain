@@ -71,3 +71,52 @@ Version: 1.0
     height:220px;
     overflow: hidden;
 }
+
+.filters .count {
+    display: none;
+}
+
+.widget_layered_nav ul{
+    display:none;
+}
+
+.widget-title{
+    cursor : pointer;
+}
+
+.widget.woocommerce.widget_layered_nav{
+    margin-top: 10px;
+}
+
+.widget.woocommerce.widget_layered_nav ul li.chosen,
+.widget.woocommerce.widget_layered_nav ul li:hover{
+    color: #747474;
+    text-decoration: underline;
+
+}
+.widget.woocommerce.widget_layered_nav ul li{
+    margin-left: 20px;
+}
+
+.widget.woocommerce.widget_layered_nav_filters .widget-title{
+    margin-top: 15px;
+}
+
+.widget.woocommerce.widget_layered_nav_filters ul li{
+    margin-left:20px;
+}
+
+.widget.woocommerce.widget_layered_nav_filters li:hover{
+    color: #747474;
+    text-decoration: underline;
+}
+
+.product img.large{
+    width: 300px!important;
+}
+.product img.medium{
+    width: 223.8px!important;
+}
+.product img.small{
+    width: 120px!important;
+}
