@@ -400,6 +400,7 @@ button{
 /* Content */
 #content{
 	margin-top: 140px;
+    margin-bottom:100px;
 }
 
 /* Content - Category */
@@ -592,13 +593,12 @@ button{
 }
 
 /* Content - Product description */
-.product-content .product-image{
+.product-content .images{
 	float: left;
 	position: relative;
-	height: 620px;
 	width: 520px;
 }
-.product-content .product-image .zoom{
+.product-content  .zoom-icon{
 	background: url('../img/zoom.png') no-repeat;
 	height: 56px;
 	opacity: 0.5;
@@ -607,7 +607,7 @@ button{
 	top: 20px;
 	width: 56px;
 }
-.product-content .product-image:hover .zoom:hover{
+.product-content .zoom-icon:hover{
 	opacity: 1;
 }
 .product-content .product-description{
@@ -645,7 +645,7 @@ button{
 	border-top: 1px solid #bbbbbb;
 	border-bottom: 1px solid #bbbbbb;
 	padding: 20px 0;
-	margin-bottom: 45px;
+	margin-bottom: 13px;
 }
 .product-description .links li{
 	display: inline-block;

@@ -46,3 +46,28 @@ Version: 1.0
     margin-top: 20px;
 
 }
+.images{
+    position:relative;
+
+}
+#row-pa_size{
+        display:none;
+
+}
+.active{
+    padding:2px;
+
+}
+.single_add_to_cart_button{
+    margin-top:10px;
+
+}
+.variations_form{
+    height:217px;
+
+}
+
+.description {
+    height:220px;
+    overflow: hidden;
+}

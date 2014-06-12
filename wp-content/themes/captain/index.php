@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="content">
+<div id="content" class="content-home">
     <div class="slider">
         <div class="arrows">
             <a href="#" class="arrow prev" id="slider-prev"></a>

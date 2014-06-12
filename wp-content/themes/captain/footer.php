@@ -23,7 +23,7 @@
         </div>
     </div>
 </footer>
-
+<?php wp_footer(); ?>
 <!-- Scripts -->
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/unslider.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/the-captain.js"></script>
