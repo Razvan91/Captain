@@ -55,47 +55,6 @@ $(".slider .arrow").css({
 });
 
 
-// Products view
-var product_width = $(window).width()-$(".categories").width()-$(".filters").width()-(4*35);
-
-if($(".categories-content .products").hasClass("view-3")){
-	$(".categories-content .products").css({
-		width: product_width
-	});
-	$(".categories-content .product").css({
-		width: (product_width-(6*35)-20)/3,
-		height: $(".categories-content .product *").height()
-	});
-	$(".categories-content .product img").css({
-		width: (product_width-(6*35)-20)/3
-	});
-}
-
-if($(".categories-content .products").hasClass("view-5")){
-	$(".categories-content .products").css({
-		width: product_width
-	});
-	$(".categories-content .product").css({
-		width: (product_width-(10*35)-20)/5,
-		height: $(".categories-content .product *").height()
-	});
-	$(".categories-content .product img").css({
-		width: (product_width-(10*35)-20)/5
-	});
-}
-
-if($(".categories-content .products").hasClass("view-7")){
-	$(".categories-content .products").css({
-		width: product_width
-	});
-	$(".categories-content .product").css({
-		width: (product_width-(14*35)-20)/7,
-		height: $(".categories-content .product *").height()
-	});
-	$(".categories-content .product img").css({
-		width: (product_width-(14*35)-20)/7
-	});
-}
 
 
 })
