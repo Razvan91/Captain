@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var height = $(window).height() - 180;
+    var height = $(window).height() - 100;
     $(".content-home,#slider").height(height);
     $('#slider').before('<div class="dots">').cycle({
         fx:     'scrollHorz',
