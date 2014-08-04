@@ -47,21 +47,28 @@
         <ul>
             <li><a href="#" title="Login" class="login-button"><img src="<?php echo get_template_directory_uri(); ?>/img/header-user-icon.png" alt="Login"/></a></li>
             <li><a href="#" title="Cart" class="cart-button"><img src="<?php echo get_template_directory_uri(); ?>/img/header-cart-icon.png" alt="Cart"/><span>3</span></a></li>
-            <li><a href="#" title="Search" class="search-button"><img src="<?php echo get_template_directory_uri(); ?>/img/header-search-icon.png" alt="Search"/></a></li>
+            <li><form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+                <label>
+                    <input type="text" class="search-field" placeholder="Product search.." value="" name="s" title="Search for:" style="display:none" />
+                </label>
+                <input type="submit" title="Search" class="search-button">
+            </form></li>
         </ul>
     </div>
 
     <div class="login">
-        <form class="form">
+
+        <form class="form" action="<?php echo get_site_url(); ?>/wp-login.php" method="post">
             <label>E-mail</label>
-            <input type="text" name="login_email" placeholder="Enter e-mail..."/>
+            <input type="text" name="log" placeholder="Enter e-mail..."/>
             <label>Password</label>
-            <input type="text" name="login_password" placeholder="Enter password..."/>
+            <input type="password" name="pwd" placeholder="Enter password..."/>
 			<span class="remember-password">
-				<input type="checkbox" name="login_remember"/>
+				<input type="checkbox" name="rememberme" value="forever"/>
 				<label>Remember password</label>
 			</span>
             <input type="submit" name="sign_in" value="Sign In" class="login-button"/>
+            <input type="hidden" name="redirect_to" value="<?php echo get_site_url(); ?>">
         </form>
         <a href="#" class="forgot-password">Forgot password</a>
         <span class="or"><span>or</span></span>
