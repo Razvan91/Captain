@@ -46,7 +46,7 @@
 		$form = this
 
 			// On clicking the reset variation button
-			.on( 'click', '.reset_variations,.variations-reset-selector', function( event ) {
+			.on( 'click', '.reset_variations', function( event ) {
 
 				$( this ).closest( '.variations_form' ).find( '.variations select' ).val( '' ).change();
 

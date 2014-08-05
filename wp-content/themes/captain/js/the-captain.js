@@ -56,5 +56,18 @@ $(".slider .arrow").css({
 
 
 
+$(".search-form").submit(function(){
+    if($(".search-field").is(":visible")){
+        $(".search-form").removeClass("border");
+    }
+    else{
+        $(".search-button").parent().parent().prev().prev().hide();
+        $(".search-button").parent().parent().prev().hide();
+        $(".search-button").parent().find(".search-field").show();
+        $(".search-form").addClass("border");
+        return false;
+    }
+})
+
 
 })
