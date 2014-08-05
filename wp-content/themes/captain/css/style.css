@@ -427,7 +427,7 @@ input[type="checkbox"]{
 
 /* Content */
 #content{
-	margin-top: 100px;
+	margin-top: 30px;
 }
 
 /* Content - Category */
@@ -491,7 +491,8 @@ input[type="checkbox"]{
 	text-decoration: underline;
 }
 .filters .view{
-	margin-top: 30px;
+
+    margin-top: 6px;
 }
 .filters .view ul{
 	display: inline-block;
@@ -527,7 +528,7 @@ input[type="checkbox"]{
 	display: inline-block;
 	font-size: 12px;
 	line-height: 12px;
-	margin: 0 35px 50px;
+	margin-bottom: 50px;
 	padding: 0;
 	vertical-align: top;
 }

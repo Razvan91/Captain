@@ -8,7 +8,12 @@ Version: 1.0
         clear:both;
 
 }
-#header .menu{
+#header .menu.left-menu{
+    text-align:left;
+}
+#header .menu.right-menu{
+    text-align: right;
+
 }
 
 .header-content{
@@ -38,6 +43,13 @@ Version: 1.0
     padding-top:30px;
 
 }
+.filters{
+
+    position: absolute;
+    right: 42px;
+    top: 670px;
+
+}
 .price {
     margin-top: 20px;
 
@@ -60,6 +72,10 @@ Version: 1.0
 }
 .variations_form{
     height:217px;
+
+}
+#content {
+    min-height:800px;
 
 }
 
@@ -106,13 +122,98 @@ Version: 1.0
     color: #747474;
     text-decoration: underline;
 }
+.cat-item .cat-item {
+    margin-left:10px;
 
+}
+.cat-item {
+    list-style-type: none;
+
+}
 .product img.large{
     width: 300px!important;
+    height:350px !important;
 }
 .product img.medium{
     width: 223.8px!important;
+    height:250px !important;
 }
 .product img.small{
     width: 120px!important;
+    height:150px !important;
+}
+
+#product-wrapper{
+    width:915px;
+    margin:auto;
+    margin-top: 60px;
+}
+
+.filters .view .active-view{
+
+    background: #000000;
+
+}
+
+.small-products .product{
+    width:127px;
+    margin-left:33px;
+    margin-right:33px;
+
+}
+.medium-products .product{
+    width:176px;
+    margin-left:33px;
+    margin-right:33px;
+
+}
+.large-products .product{
+    width:258px;
+    margin-left:33px;
+    margin-right:33px;
+
+}
+
+.product img{
+    width:100% !important;
+    height:100% !important;
+
+}
+
+.large-products .product img{
+    height:258px !important;
+
+}
+.small-products .product img{
+    height:127px !important;
+
+}
+.medium-products .product img{
+    height:178px !important;
+
+}
+.small-products .product:nth-of-type(5n+1){
+    margin-left:0px;
+
+}
+.small-products .product:nth-of-type(5n+0){
+    margin-right:0px;
+
+}
+
+.medium-products .product:nth-of-type(4n+1){
+    margin-left:0px;
+
+}
+.medium-products .product:nth-of-type(4n+0){
+    margin-right:0px;
+
+}
+.large-products .product:nth-of-type(3n+1){
+    margin-left:0px;
+
+}
+.large-products .product:nth-of-type(3n+0){
+    margin-right:0px;
+
 }

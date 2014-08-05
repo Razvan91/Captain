@@ -32,16 +32,15 @@ $cat_obj = $wp_query->get_queried_object();
             <div class="view">
                 <span>View</span>
                 <ul>
-                    <li class="view-3"></li>
-                    <li class="view-5"></li>
-                    <li class="view-7"></li>
+                    <li class="view-3 active-view" data-id=".view-3" data-product="small"></li>
+                    <li class="view-5"  data-id=".view-5" data-product="medium"></li>
+                    <li class="view-7"  data-id=".view-7" data-product="large"></li>
                 </ul>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 
 <?php
     get_footer();
 ?>
-
-<script src="<?php echo get_template_directory_uri(); ?>/js/archive-product.js"></script>

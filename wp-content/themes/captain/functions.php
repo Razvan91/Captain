@@ -12,19 +12,11 @@ function captain_setup(){
 
 function woocommerce_subcats_from_parentcat_by_ID($parent_cat_ID) {
     $args = array(
-        'hierarchical' => 1,
-        'show_option_none' => '',
-        'hide_empty' => 0,
-        'parent' => $parent_cat_ID,
-        'taxonomy' => 'product_cat'
+        'taxonomy' => 'product_cat',
+        "title_li" =>""
     );
-    $subcats = get_categories($args);
-    echo '<ul class="wooc_sclist">';
-    foreach ($subcats as $sc) {
-        $link = get_term_link( $sc->slug, $sc->taxonomy );
-        echo '<li><a href="'. $link .'">'.$sc->name.'</a></li>';
-    }
-    echo '</ul>';
+    wp_list_categories($args);
+
 }
 /**
  * Register widgetized area and update sidebar with default widgets
